@@ -31,7 +31,7 @@ button.with-image {
 button.with-image::before {
   content: '';
   display: block;
-  background-image: url("/assets/svg/Email_light.svg");
+  background-image: url("../assets/svg/Email_light.svg");
   background-size: contain;
   background-repeat: no-repeat;
   height: 16px;
@@ -51,7 +51,7 @@ button.with-pointer {
 button.with-pointer::after {
   content: '';
   display: block;
-  background-image: url("/assets/svg/Arrow_right.svg");
+  background-image: url("../assets/svg/Arrow_right.svg");
   background-size: contain;
   background-repeat: no-repeat;
   height: 16px;
@@ -244,7 +244,7 @@ button.large {
 .container .heading .content ol li span.highlight::after {
   content: '';
   display: block;
-  background-image: url("/assets/svg/Highlight.svg");
+  background-image: url("../assets/svg/Highlight.svg");
   background-size: contain;
   background-repeat: no-repeat;
   width: 74px;
@@ -268,7 +268,7 @@ button.large {
 }
 
 .container .heading .content .header .logo-icon {
-  background-image: url("/assets/svg/logo.svg");
+  background-image: url("../assets/svg/logo.svg");
   background-size: contain;
   background-repeat: no-repeat;
   width: 103px;
@@ -294,7 +294,7 @@ button.large {
 }
 
 .ellipse {
-  background-image: url("/assets/svg/Ellipse.svg");
+  background-image: url("../assets/svg/Ellipse.svg");
   background-size: contain;
   background-repeat: no-repeat;
   width: 600px;
