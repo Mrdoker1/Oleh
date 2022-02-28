@@ -343,7 +343,7 @@ button.large {
 @media screen and (max-width: 375px) {
   .container .login {
     margin: 100px 30px 30px 30px;
-    padding-bottom: 0px;
+    padding-bottom: 30px;
   }
   .container .heading {
     min-height: 554px;
