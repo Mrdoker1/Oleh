@@ -202,6 +202,7 @@
         background-repeat: no-repeat;
         width: 600px;
         height: 600px;
+        animation: blinker 3s cubic-bezier(.5, 0, 1, 1) infinite;
     }
     
     @media screen and (max-width: 970px) {
@@ -249,5 +250,11 @@
             .heading {
                 min-height: 554px;
             }
+        }
+    }
+    
+    @keyframes blinker {
+        50% {
+            opacity: 0;
         }
     }

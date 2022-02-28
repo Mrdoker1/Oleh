@@ -299,6 +299,8 @@ button.large {
   background-repeat: no-repeat;
   width: 600px;
   height: 600px;
+  -webkit-animation: blinker 3s cubic-bezier(0.5, 0, 1, 1) infinite;
+          animation: blinker 3s cubic-bezier(0.5, 0, 1, 1) infinite;
 }
 
 @media screen and (max-width: 970px) {
@@ -347,5 +349,17 @@ button.large {
   }
   .container .heading {
     min-height: 554px;
+  }
+}
+
+@-webkit-keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
   }
 }
