@@ -59,7 +59,7 @@ button.with-pointer::after {
 }
 
 button.small {
-  background: #555253;
+  background: rgba(255, 255, 255, 0.1);
   color: white;
   height: 39px;
   border: 2px solid #555253;
