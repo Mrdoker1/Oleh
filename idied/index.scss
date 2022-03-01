@@ -218,22 +218,23 @@
         .container {
             flex-direction: column;
             h1 {
-                font-size: 42px;
-                line-height: 60px;
+                font-size: 35px;
+                line-height: 50px;
             }
             h2 {
                 font-size: 22px;
                 line-height: 36px;
             }
             .heading {
-                min-height: 940px;
                 .content {
-                    padding: 25px 25px 54px 25px;
+                    padding: 25px 25px 25px 25px;
+                    ol {
+                        gap: 8px
+                    }
                 }
             }
             .login {
                 margin: 100px 30px 30px 30px;
-                padding-bottom: 30px;
                 h2 {
                     margin-bottom: 22px;
                 }
@@ -244,11 +245,8 @@
     @media screen and (max-width: 375px) {
         .container {
             .login {
-                margin: 100px 30px 30px 30px;
+                margin: 25px 30px 00px 30px;
                 padding-bottom: 30px;
-            }
-            .heading {
-                min-height: 554px;
             }
         }
     }
